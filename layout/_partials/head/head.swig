@@ -41,6 +41,9 @@
 
 <link rel="stylesheet" href="{{ url_for(theme.css) }}/main.css">
 
+<link rel="stylesheet" href="{{ url_for(theme.js) }}/image-compare-viewer.min.css">
+<script src="{{ url_for(theme.js) }}/image-compare-viewer.min.js"></script>
+
 {{ next_font() }}
 
 {%- set font_awesome_uri = theme.vendors.fontawesome or next_vendors('font-awesome/css/all.min.css') %}
